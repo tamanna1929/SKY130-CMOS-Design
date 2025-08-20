@@ -266,8 +266,9 @@ setplot dc1
 .endc
 
 .end!
-<br>![VirtualBox_vsdworkshop_18_08_2025_22_26_05](https://github.com/user-attachments/assets/24021f21-ff58-4a4a-ac42-bc635668626c)
-<br>![VirtualBox_vsdworkshop_18_08_2025_22_26_23](https://github.com/user-attachments/assets/f172e705-841c-42b1-b0e5-347df0c96270)
+<br>![WhatsApp Image 2025-08-20 at 23 57 47 (1)](https://github.com/user-attachments/assets/ae1e3ed2-9be1-4744-8dd9-e204bec81af4)
+
+<br>
 
 
 <br>To calculate Threshold voltage for Id versus Vgs curve, the following SPICE code is required:
@@ -297,7 +298,8 @@ setplot dc1
 .endc
 
 .end
-<br>![VirtualBox_vsdworkshop_18_08_2025_22_30_02](https://github.com/user-attachments/assets/1b534841-ffb2-4ab0-a6c5-61f9763ecfff)
+<br>![WhatsApp Image 2025-08-20 at 23 57 47 (1)](https://github.com/user-attachments/assets/64807425-9985-45d1-8785-1f6ac6a8386f)
+
 <br>In order to calculate the Threshold voltage, the linear part of the plot must be extended. Now, the x intercept of this extended plot gives the value of the threshold voltage of the device that is being simulated.
 <br>
 <h3>Part 2: CMOS voltage transfer characteristics (VTC)</h3>
@@ -408,8 +410,10 @@ display
 .endc
 
 .end
-<br>![VirtualBox_vsdworkshop_19_08_2025_21_24_58](https://github.com/user-attachments/assets/3d3072b5-3384-4986-9199-c47fded29087)
-<br>![VirtualBox_vsdworkshop_19_08_2025_21_25_10](https://github.com/user-attachments/assets/1e6e755e-d79e-49a5-8670-a78f09419d7b)
+<br>![WhatsApp Image 2025-08-21 at 00 02 41](https://github.com/user-attachments/assets/c05cb71c-4071-4f83-80f2-c981eb7f5760)
+
+<br>![WhatsApp Image 2025-08-21 at 00 03 54](https://github.com/user-attachments/assets/bbcf0aa9-1987-49d6-aa13-f8c1de0026a6)
+
 <br>
 <li>To find the switching threshold voltage (Vm), look for the region where Vout is about equal to Vin on the plot.</li>
 <li>Right-click and drag to select and zoom in on this area a couple of times until the Vm point is clear.</li>.
@@ -443,8 +447,9 @@ run
 .endc
 
 .end
-<br>![VirtualBox_vsdworkshop_19_08_2025_21_39_24](https://github.com/user-attachments/assets/991cbf04-912a-4cfa-8e3b-3580e4d4faa9)
-<br>![VirtualBox_vsdworkshop_19_08_2025_21_39_44](https://github.com/user-attachments/assets/a788378a-605c-4d8b-9e9e-11f30c964485)
+<br>![WhatsApp Image 2025-08-21 at 00 04 54](https://github.com/user-attachments/assets/7a68bbfd-37b3-4004-91e7-86c6c992f9b0)
+
+<br>
 <br>
 **Rise delay** is the time difference between when the input drops through Vdd/2 and when the output rises through Vdd/2.
 <br>
@@ -673,7 +678,8 @@ display
 .endc
 
 .end
-<br>![WhatsApp Image 2025-08-20 at 22 43 17](https://github.com/user-attachments/assets/a686d25d-d6cf-43c4-b34e-dd12a7e4da83)
+<br>![WhatsApp Image 2025-08-21 at 00 06 44](https://github.com/user-attachments/assets/e759ed7c-2f06-4824-aee7-81311631e670)
+
 
 <br>Method to calculate the Noise Margins from the plot:
 <br>Run the ngspice command and open the plot
@@ -735,8 +741,9 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 .endc
 
 .end
-<br>![WhatsApp Image 2025-08-20 at 23 04 15](https://github.com/user-attachments/assets/1e5871cc-6b37-4ba5-8af8-ccce022abba6)
-<br>![WhatsApp Image 2025-08-20 at 23 04 15 (1)](https://github.com/user-attachments/assets/0409dd66-0419-4682-89e0-66ec7e0245a3)
+<br>![WhatsApp Image 2025-08-21 at 00 08 49](https://github.com/user-attachments/assets/43f51674-30b7-4650-a50a-aacc5ed9c5d5)
+
+<br>
 <br>To calculate the gain for the given plot:
 <br>Select the curve for which the gain is to be calculated (In this case, we chose the plot for 1.8V Vdd)
 <br>Left click on the point where the slope of the curve is almost changing toward the top of the plot
@@ -817,11 +824,12 @@ display
 .endc
 
 .end
-<br>![WhatsApp Image 2025-08-20 at 23 16 27](https://github.com/user-attachments/assets/fe7e2644-b7bd-4889-bfca-9d90d928a36c)
+<br>![WhatsApp Image 2025-08-21 at 00 10 06](https://github.com/user-attachments/assets/04573ecb-f94c-42f5-bcf7-8d0780501925)
 
-<br>![WhatsApp Image 2025-08-20 at 23 16 27 (1)](https://github.com/user-attachments/assets/3790bc5f-c573-43cf-93eb-e8a347153d99)
+<br>![WhatsApp Image 2025-08-21 at 00 11 20](https://github.com/user-attachments/assets/60b01b38-4aa0-4a69-bf5f-7449bab3ec7c)
 
-<br>![WhatsApp Image 2025-08-20 at 23 16 27 (2)](https://github.com/user-attachments/assets/a00e352a-f0bd-4505-b990-468e26124178)
+
+<br>
 
 <br>Since the pfet width is very huge as compared to the nfet width, the plot is shifted towards right
 <br>**To find the value of the switching threshold:**
