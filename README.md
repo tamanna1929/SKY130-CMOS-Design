@@ -298,7 +298,8 @@ setplot dc1
 .endc
 
 .end
-<br>![WhatsApp Image 2025-08-20 at 23 57 47 (1)](https://github.com/user-attachments/assets/64807425-9985-45d1-8785-1f6ac6a8386f)
+<br>![WhatsApp Image 2025-08-21 at 00 00 54](https://github.com/user-attachments/assets/a619f6f6-7558-4e18-8567-4ce7f3902b46)
+
 
 <br>In order to calculate the Threshold voltage, the linear part of the plot must be extended. Now, the x intercept of this extended plot gives the value of the threshold voltage of the device that is being simulated.
 <br>
