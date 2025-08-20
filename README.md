@@ -186,9 +186,12 @@ setplot dc1
 
 .end
 <br>In the lab activity, tt(typical corner) corner is used.
-<br>![VirtualBox_vsdworkshop_15_08_2025_18_05_15](https://github.com/user-attachments/assets/96ef8322-12f2-4932-9007-4bfa6d5f7d56)
-<br>![VirtualBox_vsdworkshop_15_08_2025_18_05_35](https://github.com/user-attachments/assets/82230928-d2dc-4d60-ae12-20b42381db43)
-<br>![VirtualBox_vsdworkshop_15_08_2025_18_05_46](https://github.com/user-attachments/assets/4cf6d045-408e-47f3-a5db-579d077acc13)
+<br>![WhatsApp Image 2025-08-20 at 23 50 13 (1)](https://github.com/user-attachments/assets/0c54a5ae-213c-4c57-b348-59b82d17a1a4)
+
+<br>![WhatsApp Image 2025-08-20 at 23 50 13](https://github.com/user-attachments/assets/1d7a6aa5-11ec-4707-a4eb-5b6ed25ff210)
+
+<br>![WhatsApp Image 2025-08-20 at 23 50 13 (2)](https://github.com/user-attachments/assets/9d26f2a2-93f5-46da-b177-d4b8bfa10a4d)
+
 <br>By left click on the point on the required curve, we get the value of Id at that point as displayed in the the form of y0 in figure and y0 is value of Id in amperes.
 <br>
 <h2>Velocity Saturation and basics of CMOS inverter VTC</h2>
