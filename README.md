@@ -565,23 +565,17 @@ run
 <br>**Introduction to noise margin**
 <br>Ideal and actual Input-Output characteristics of an inverter were observed:
 <br>Ideal: Sharp transition between logic 0 and logic 1
-………figure…………
 <br>When Vin = 0,  Vout = Vdd
 <br>If Vin =vdd/2, Vout will tends to zero/ becomes Zero.
 <br>Slope, dy/dx = Vd/0 = infinite
 <br>Actual: Finite slope, leading to undefined region .
-…..figure………..
 <br>**Conclusion :**  From above figure  . We observe that
 <br>1.	Vil is Input Low Voltage (Vil could be Vdd/4) : input voltage level between 0 and Vil will be treated as logic '0'.
 <br>2.	Voh is Output High Voltage (Vih < Voh <= Vdd) : Any output voltage level between Voh and Vdd will be treated as logic '1'.
 <br>3.	Vih is Input High Voltage (Vih could be 3.Vdd/4) : Any input voltage level between Vih and Vdd will be treated as logic '1'.
 <br>4.	Vol is Output Low Voltage (0 <= Vol < Vil) : Any output voltage level between 0 and Vol will be treated as logic '0'.
-<br>Actual graph  of an inverter were observed and they were plotted on a scale:
-……………………figure………………
-<br>Curve graph plotted because of non idality of diode. Slope of above graph is -1 .
-
+<br>Curve graph plotted because of non idality of diode. Slope of above graph is -1 
 <br>I/o characteristic plotted on scale ( using previous graphs):
-…………………..figure………………
 <br>1.	NMh (Noise Margin High)  :   Any voltage level in "NMh" range will be detected as logic '1'.
 <br>2.	NMl (Noise Margin Low) : Any voltage level in "NMl" range will be detected as logic '0'.
 <br>3.	Undefined region  ( Any input between Vil and Vih ) : indefinite logic level
@@ -590,7 +584,6 @@ run
 <br>•	NMl = Vil – Vol
 
 <br>**Noise margin Summary :** 
-…………………..figure…………….
 <br>1.	 Vol to Vil → Glitches in this range are safe, as the signal is still recognized as logic ‘0’.
 <br>2.	 Vil to Vih (Undefined Region) → Glitches here are unsafe, since the logic level is uncertain and may cause errors.
 <br>3.	Vih to Voh → Glitches in this range are critical, as they are always interpreted as logic ‘1’ and must be eliminated.
@@ -646,7 +639,8 @@ run
 <li>NMl remains largely unaffected, but NMh improves by approximately 120 mV, which remains within acceptable limits, demonstrating the CMOS inverter’s robustness in terms of noise margin.</li>
 
 <br>Lastly, the figure below outlines the suitable regions for both digital and analog applications.
-<br>![WhatsApp Image 2025-08-20 at 23 35 47](https://github.com/user-attachments/assets/098c3fce-1d71-4284-9c8c-ce707851a45a)
+<br>![design](https://github.com/user-attachments/assets/16b18a87-d76b-422c-b0bb-e2f100f10a38)
+
 
  <h4>Lab Activity</h4>
  <br>Following code is used:
