@@ -78,22 +78,22 @@ The first session of the workshop emphasized the role of SPICE as an essential t
     <br>Body terminal can be used to tune the threshold voltage.
     <br>![WhatsApp Image 2025-08-20 at 23 30 42](https://github.com/user-attachments/assets/9066bd97-a346-429d-a059-898c850275c0)
 
-    <b>Threshold Voltage (Vt)</b>- This is the minimum gate-to-source voltage (Vgs) required to form a conducting channel at the semiconductor surface or we can say that this is the voltage where "strong inversion" happens.
-    <br>
-    <b>Strong Inversion</b>- When Vgs is sufficiently large, the surface inverts to n type, creating a channel of mobile electrons that allows current to flow from drain to source.
-    <br>2 cases were discussed:
-    <br>1. Vsb=0; here no body bias is applied. In this case, the threshold voltage remains at its nominal value and strong inversion occurs as soos as Vgs exceeds this value
-    <br>2. Vsb?0; here a +ve source-to-body bias is applied. This increases the depletion charge in the channel region and thereby raises the threshold voltage (body effect). As a result, a larger Vgs is required to reach strong inversion.
-    <br>"In the presence of Vsb, additional potential is needed for strong inversion."
-    <br><b>Threshold Voltage Equation</b>b>
-    <br>V<sub>T</sub> = V<sub>T0</sub> + γ ( √(|-2φ<sub>F</sub> + V<sub>SB</sub>|) − √(|-2φ<sub>F</sub>|) )
-    <br>where
-    <br>V<sub>T0</sub> is the threshold voltage when Vsb=0 and is a function of manufacturing process
-    <br>γ  is the body effect coefficient and it expresses the impact of changes in body bias Vsb ( γ  has the units of V^0.5)
-    <br>φ<sub>F</sub> is the fermi potential
-    <br>
-    <br><b>Body effect coefficient expression</b>
-   <br>γ = ( √(2 q ε<sub>si</sub> N<sub>A</sub>) ) / C<sub>ox</sub>
+<b>Threshold Voltage (Vt)</b>- This is the minimum gate-to-source voltage (Vgs) required to form a conducting channel at the semiconductor surface or we can say that this is the voltage where "strong inversion" happens.
+<br>
+<b>Strong Inversion</b>- When Vgs is sufficiently large, the surface inverts to n type, creating a channel of mobile electrons that allows current to flow from drain to source.
+ <br>2 cases were discussed:
+ <br>1. Vsb=0; here no body bias is applied. In this case, the threshold voltage remains at its nominal value and strong inversion occurs as soos as Vgs exceeds this value
+ <br>2. Vsb?0; here a +ve source-to-body bias is applied. This increases the depletion charge in the channel region and thereby raises the threshold voltage (body effect). So,a larger Vgs is required to reach strong inversion.
+ <br>"In the presence of Vsb, additional potential is needed for strong inversion."
+<br><b>Threshold Voltage Equation</b>b>
+ <br>V<sub>T</sub> = V<sub>T0</sub> + γ ( √(|-2φ<sub>F</sub> + V<sub>SB</sub>|) − √(|-2φ<sub>F</sub>|) )
+<br>where
+<br>V<sub>T0</sub> is the threshold voltage when Vsb=0 and is a function of manufacturing process
+<br>γ  is the body effect coefficient and it expresses the impact of changes in body bias Vsb ( γ  has the units of V^0.5)
+<br>φ<sub>F</sub> is the fermi potential
+<br>
+<br><b>Body effect coefficient expression</b>
+ <br>γ = ( √(2 q ε<sub>si</sub> N<sub>A</sub>) ) / C<sub>ox</sub>
     <br>where
     <br> ε<sub>si</sub> is the relative permitivity of silicon (=11.7)
     <br>N<sub>A</sub>is the doping concentration
@@ -840,7 +840,7 @@ display
 <br>A point x0 = 0.988568, y0 = 0.985 is obtained
 <br>Since x0 ~ y0. Therefore, Switching Threshold Voltage = Vm = x0 = y0 = 0.988V
 <br><h2>Conclusion</h2>
-<br>Throughout the course, I gained a comprehensive understanding of MOSFETs and CMOS inverters. I learned various techniques to modify inverter characteristics and acquired practical skills in creating SPICE decks from netlists and running simulations. The study of voltage transfer characteristics and their influencing factors deepened my knowledge further. Additionally, exploring static behavior and its components was highly enlightening. The hands-on lab activities were particularly valuable, as analyzing simulation plots encouraged me to experiment with parameter adjustments. Overall, the workshop significantly enhanced my grasp of MOSFET fundamentals and sparked a keen interest in the subject. The continuous guidance provided by the VLSI System Design team made this experience highly rewarding.
+<br>During the workshop, I developed a solid foundation in MOSFETs and CMOS inverter operation. The course covered various methods to influence inverter properties and taught me how to construct and simulate SPICE decks effectively. Understanding voltage transfer characteristics and the factors that affect them, as well as static behavior analysis, were key takeaways. The lab exercises provided hands-on practice and encouraged curiosity about the effects of varying simulation parameters. This workshop has been instrumental in fueling my enthusiasm for mastering MOSFET basics. The continuous assistance and guidance from the VLSI System Design group enhanced my overall learning experience.
 <br><h2>References</h2>
 <li>https://github.com/kunalg123/sky130CircuitDesignWorkshop</li>
 <li>https://www.vlsisystemdesign.com/</li>
