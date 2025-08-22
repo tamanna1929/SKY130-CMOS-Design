@@ -839,6 +839,54 @@ display
 <li>https://github.com/kunalg123/sky130CircuitDesignWorkshop</li>
 <li>https://www.vlsisystemdesign.com/</li>
 <li>https://github.com/kunalg123/vsdflow</li>
+<!-- NMOS (enhancement) symbol for GitHub README using inline SVG -->
+<!-- Paste this whole block into your README.md or any GitHub HTML-rendered file -->
+<div align="center">
+  <svg width="360" height="220" viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="n-MOSFET symbol">
+    <defs>
+      <style>
+        .w { stroke: currentColor; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+        .t { font: 14px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; fill: currentColor; }
+      </style>
+    </defs>
+
+    <!-- Drain lead -->
+    <line class="w" x1="180" y1="20"  x2="180" y2="60"/>
+    <!-- Source lead -->
+    <line class="w" x1="180" y1="160" x2="180" y2="200"/>
+
+    <!-- Channel (vertical) -->
+    <line class="w" x1="180" y1="70"  x2="180" y2="150"/>
+
+    <!-- Gate (left plate) -->
+    <line class="w" x1="100" y1="110" x2="150" y2="110"/>
+    <!-- Gate oxide gap (small spacing between gate and channel) -->
+    <line class="w" x1="160" y1="85"  x2="160" y2="135"/>
+    <!-- Short ticks to indicate insulated gate -->
+    <line class="w" x1="165" y1="85"  x2="175" y2="85"/>
+    <line class="w" x1="165" y1="135" x2="175" y2="135"/>
+
+    <!-- Body connection (optional) tied to source; small line + arrow out for nMOS -->
+    <line class="w" x1="205" y1="150" x2="235" y2="180"/>
+    <!-- Arrow (outwards for nMOS) -->
+    <polygon points="235,180 224,176 229,171" fill="currentColor"/>
+
+    <!-- Termination dots -->
+    <circle class="t" cx="180" cy="20"  r="3" fill="currentColor"/>
+    <circle class="t" cx="180" cy="200" r="3" fill="currentColor"/>
+    <circle class="t" cx="100" cy="110" r="3" fill="currentColor"/>
+
+    <!-- Labels -->
+    <text class="t" x="188" y="28">D</text>
+    <text class="t" x="188" y="198">S</text>
+    <text class="t" x="82"  y="114">G</text>
+    <text class="t" x="242" y="184">B</text>
+
+    <!-- Title -->
+    <text class="t" x="180" y="215" text-anchor="middle">n-MOSFET (enhancement)</text>
+  </svg>
+</div>
+
 
 
 
